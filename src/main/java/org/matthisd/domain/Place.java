@@ -19,7 +19,7 @@ public class Place {
     @Column(unique = true, nullable = false)
     private String name;
 
-    @Column(unique = true, nullable = false)
+    @Column(name="shortname",unique = true, nullable = false)
     private String shortName;
 
     private String coordinates;
